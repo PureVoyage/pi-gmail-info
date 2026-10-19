@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, noarchive">
+  <meta name="description" content="pi gmail 是供应用所有者个人使用的 Gmail 助手，通过 Pi 搜索、阅读和管理自己的邮件。">
+  <title>pi gmail · 个人邮箱助手</title>
+  <style>
+    :root { color-scheme: light dark; --bg: #f5f6f3; --card: #fff; --text: #192a26; --muted: #52635d; --line: #dde5df; --accent: #165f47; }
+    * { box-sizing: border-box; } body { margin: 0; background: var(--bg); color: var(--text); font: 17px/1.8 system-ui, -apple-system, sans-serif; }
+    main { max-width: 780px; margin: 64px auto; padding: 36px; background: var(--card); border: 1px solid var(--line); border-radius: 20px; }
+    .tag { color: var(--accent); font-size: 14px; font-weight: 650; } h1 { margin: 12px 0; font-size: 42px; line-height: 1.2; letter-spacing: -1.5px; } h2 { margin-top: 32px; font-size: 23px; }
+    p { margin: 14px 0; } .lead { color: var(--muted); font-size: 20px; } a { color: var(--accent); text-underline-offset: 4px; } li { margin: 8px 0; }
+    .note { padding: 16px 20px; margin-top: 28px; border-left: 3px solid var(--accent); background: var(--bg); } footer { margin-top: 32px; border-top: 1px solid var(--line); padding-top: 20px; color: var(--muted); font-size: 14px; }
+    @media (prefers-color-scheme: dark) { :root { --bg: #131b18; --card: #1b2721; --text: #e7eee8; --muted: #b6c8ba; --line: #33463a; --accent: #9ad3af; } }
+    @media (max-width: 600px) { main { margin: 16px; padding: 24px; } h1 { font-size: 34px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <span class="tag">个人使用 · Gmail 助手</span>
+    <h1>pi gmail</h1>
+    <p class="lead">在 Pi 中搜索、阅读和管理自己的 Gmail 邮件。</p>
+    <p>pi gmail 是供应用所有者个人使用的邮箱集成。它通过 Google 授权连接所有者自己的 Gmail 账号，让邮箱操作可以在 Pi 对话中完成。</p>
+    <h2>用途</h2>
+    <ul>
+      <li>按发件人、时间或关键词搜索邮件，阅读正文和邮件信息。</li>
+      <li>在用户提出请求时整理邮件内容，辅助起草和回复。</li>
+      <li>发送邮件，以及管理已读状态、归档、垃圾箱和标签。</li>
+    </ul>
+    <p>发送、回复和修改邮箱状态由用户发起，插件要求交互确认。应用不提供面向公众的邮箱服务。</p>
+    <div class="note">
+      <strong>关于邮件数据</strong>
+      <p>邮件由授权设备上的 Pi 处理。进入对话的邮件内容可能随上下文发送给用户选择的 AI 模型服务商；相关保留与使用规则取决于该服务商及用户配置。请阅读完整的<a href="privacy.html">隐私权政策</a>。</p>
+    </div>
+    <h2>支持与说明</h2>
+    <p>支持联系方式以 Google 授权页面显示的支持邮箱为准。本工具使用开源扩展 <a href="https://github.com/guquan-2002/pi-gmail">guquan-2002/pi-gmail</a>。</p>
+    <p>本工具独立于 Google。Gmail 是 Google 的服务。</p>
+    <footer><a href="privacy.html">隐私权政策</a> · 更新日期：2026 年 10 月 19 日</footer>
+  </main>
+</body>
+</html>
